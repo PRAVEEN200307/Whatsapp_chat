@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#states{
+    position: relative;
+    height: 30px;
+    width: 60px;
+}
+.check-states{
+    position: relative;
+    cursor: pointer;
+}
+
+.rounded-check{
+    position: absolute;
+    background-color: #595858;
+    height: 15px;
+    width: 15px;
+    top:15px;
+    left: 10px;
+    border-radius: 15px;
+    transform: all 0.5s;
+}
+#states:checked{
+    background-color: rgba(15, 123, 53,0.6);
+}
+
+#states:checked + .rounded-check{
+    left: 30px;
+    background-color: rgb(15, 123, 53);
+}
+
+.backaground-img{
+    background-image: url('../image/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png');
+    height: 600px;
+}
+
+.input-get{
+     margin-top: 440px;
+}
+
+.chat-input{
+   width:420px;
+}
+
+.whatsapp-ui{
+    min-width: 100px;
+}
